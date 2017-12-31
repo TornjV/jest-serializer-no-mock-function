@@ -1,0 +1,35 @@
+{
+  "name": "jest-serializer-no-mock-function",
+  "description": "Prevent jest serializing mock functions in snapshot testing.",
+  "author": "Veljko Tornjanski <veljko@tornjan.ski> (https://github.com/TornjV/)",
+  "license": "MIT",
+  "main": "index.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TornjV/jest-serializer-no-mock-function.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TornjV/jest-serializer-no-mock-function/issues"
+  },
+  "homepage": "https://github.com/TornjV/jest-serializer-no-mock-function#readme",
+  "keywords": [
+    "jest",
+    "snapshot",
+    "serializer",
+    "snapshotSerializer",
+    "mock",
+    "function"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "./index.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^22.0.4"
+  }
+}
