@@ -1,6 +1,6 @@
 # Jest snapshot serializer that prevents serializing mocked functions
 
-Upon upgrading to Jest 22 I've ran into snapshot size increase due to serialization of mocked functions. This pacakge makes it serialize to a normal function.
+Upon upgrading to Jest 22 I've run into snapshot size increase due to serialization of mocked functions. This package makes it serialize to a normal function.
 
 ## Install
 
